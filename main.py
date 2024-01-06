@@ -91,9 +91,13 @@ def add_plan():
 if __name__ == '__main__':
     app.run(debug=True)
 
+git remote add origin https://gordeewiktor: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@github.com/[username]/[repository].git
 
 
 
+git remote remove origin
+git remote add origin https://gordeewiktor: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@github.com/gordeewiktor/fitness-app.git
+git push -u origin main
 
 
 
